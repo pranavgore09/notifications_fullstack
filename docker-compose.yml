@@ -13,3 +13,5 @@ services:
         environment:
         - APP_PORT=9999
         - RETHINK_HOST=rethink
+        volumes:
+        - ./logs:/server/logs
