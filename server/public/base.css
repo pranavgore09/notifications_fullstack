@@ -9,9 +9,9 @@ body {
 .badge{
     background-color: yellow;
     color: red;
-    top: -10px;
+    top: -15px;
     position: relative;
-    left: -20px;
+    left: -15px;
 }
 
 .myMenu {
