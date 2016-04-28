@@ -2,9 +2,16 @@ body {
     background-color: aquamarine;
 }
 
+.glyphicon-large {
+    font-size: 30px;
+}
+
 .badge{
     background-color: yellow;
     color: red;
+    top: -10px;
+    position: relative;
+    left: -20px;
 }
 
 .myMenu {
