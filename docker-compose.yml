@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+    rethink:
+        image: rethinkdb
+    node:
+        build: .
+        command: node app.js
+        ports:
+        - "9999:9999"
+        links:
+        - rethink
+        environment:
+        - APP_PORT=9999
+        - RETHINK_HOST=rethink
