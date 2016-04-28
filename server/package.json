@@ -4,9 +4,9 @@
   "description": "Generates and displayes notifications to user",
   "main": "app.js",
   "dependencies": {
+    "bunyan": "^1.8.1",
     "rethinkdbdash": "^2.3.3",
     "socket.io": "^1.4.5",
-    "winston": "^2.2.0",
     "starwars": "^1.0.0"
   },
   "devDependencies": {},

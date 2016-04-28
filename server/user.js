@@ -1,7 +1,7 @@
 // this module performs all user specific activities.
 // attach event handlers and emit events for accepted connection
 'use strict';
-const logger = require('winston');
+const logger = require('./logger');
 const config = require('./conf')
 const notifications_table_name = config.RETHINK_NOTIFICATIONS_TBL_NAME
 

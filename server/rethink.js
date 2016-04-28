@@ -1,6 +1,6 @@
 // this will setup rethink we required database=test and table=notifications
 'use strict';
-const logger = require('winston');
+const logger = require('./logger');
 const config = require('./conf');
 const rethinkdbdash = require('rethinkdbdash')({'host':config.RETHINK_HOST});
 
