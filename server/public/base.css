@@ -63,13 +63,13 @@ body {
     background-color: #0CF;
 }
 
-.myMenu li ul li:last-child {
+.myMenu li ul li:first-child {
     line-height: 2em;
     font-weight: bold;
     text-align: center;
 }
 
-.myMenu li ul li:last-child a{
+.myMenu li ul li:first-child a{
     color: white;
 }
 
