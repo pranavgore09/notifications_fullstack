@@ -38,7 +38,10 @@ Now, Go to the browser and hit ***http://IP_ADDR:9999**
 
 ###Check logs
 ```sh
-tail -f -n 20 server/logs/error.log
+Open new terminal
+$ tail -f -n 20 server/logs/info.log
+Open another terminal
+$ tail -f -n 20 server/logs/error.log
 ```
 
 ###Stop containers
