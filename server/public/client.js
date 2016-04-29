@@ -2,7 +2,7 @@
 $(document).ready(function() {
   var socket = io();
   var container = $('#notification_panel');
-  var parent = container.find('li:eq(0)')
+  var parent = container.find('li:eq(0)');
   // following event is most important
   // it receives an array of notification ot be added
   socket.on('notifications', function(data){
@@ -22,10 +22,10 @@ $(document).ready(function() {
       }
       link.text(message);
       link.appendTo(li);
-      link.attr('href', '#')
+      link.attr('href', '#');
       // container.prepend(li);
       // First elemnt will always be "Your MEssages"
-      parent.after(link)
+      parent.after(li);
       // x.prepend('<li><a href="#">'+d['message']+'</a></li>');
     });
   });
