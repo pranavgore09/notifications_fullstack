@@ -14,8 +14,9 @@ Client can receive, read, delete notifications.
 Notifications_fullstack uses following projects:
 
 * [RethinkDB] - Must have for realtime apps
-* [node.js] - evented I/O for the backend
-* [jQuery] - super
+* [node.js] - Evented I/O for the backend
+* [socket.io] - Full duplex communication
+* [jQuery] - Super
 
 
 ### Installation
