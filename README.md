@@ -24,6 +24,8 @@ Notifications_fullstack uses following projects:
 Make sure you have docker, docker-compose, docker-machine installed properly. Then go inside the downloaded/cloned directory and execute following command.
 
 ```sh
+Download the zip. Extract.
+$ cd Downloaded_DIR
 $ docker-compose up -d
 ```
 ###Check application
